@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Focus Admin: Calender</title>
+    <title>Focus Admin: JS Grid Table</title>
 
     <!-- ================= Favicon ================== -->
     <!-- Standard -->
@@ -21,10 +21,10 @@
     <link rel="apple-touch-icon" sizes="57x57" href="http://placehold.it/57.png/000/fff">
 
     <!-- Styles -->
-    <link href="assets/css/lib/calendar2/semantic.ui.min.css" rel="stylesheet">
-    <link href="assets/css/lib/calendar2/pignose.calendar.min.css" rel="stylesheet">
     <link href="assets/css/lib/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/lib/themify-icons.css" rel="stylesheet">
+    <link href="assets/css/lib/jsgrid/jsgrid-theme.min.css" rel="stylesheet" />
+    <link href="assets/css/lib/jsgrid/jsgrid.min.css" type="text/css" rel="stylesheet" />
     <link href="assets/css/lib/menubar/sidebar.css" rel="stylesheet">
     <link href="assets/css/lib/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/lib/helper.css" rel="stylesheet">
@@ -329,6 +329,8 @@
     </div>
 
 
+
+
     <div class="content-wrap">
         <div class="main">
             <div class="container-fluid">
@@ -346,7 +348,7 @@
                             <div class="page-title">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                                    <li class="breadcrumb-item active">UC-Calendar</li>
+                                    <li class="breadcrumb-item active">Table-Jsgrid</li>
                                 </ol>
                             </div>
                         </div>
@@ -354,16 +356,12 @@
                     <!-- /# column -->
                 </div>
                 <!-- /# row -->
-                <section id="main-content">
+                <div id="main-content">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="card">
-                                <div class="card-title">
-                                    <h4>Calender</h4>
-                                    
-                                </div>
-                                <div class="card-body">
-                                    <div class="year-calendar"></div>
+                                <div class="jsgrid-table-panel">
+                                    <div id="jsGrid"></div>
                                 </div>
                             </div>
                             <!-- /# card -->
@@ -379,10 +377,18 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
 
 
     
@@ -398,18 +404,24 @@
 
 
 
-    <script src="assets/js/lib/calendar-2/moment.latest.min.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/calendar-2/semantic.ui.min.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/calendar-2/prism.min.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/calendar-2/pignose.calendar.min.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/calendar-2/pignose.init.js"></script>
-    <!-- scripit init-->
+    <!-- JS Grid Scripts Start-->
+    <script src="assets/js/lib/jsgrid/db.js"></script>
+    <script src="assets/js/lib/jsgrid/jsgrid.core.js"></script>
+    <script src="assets/js/lib/jsgrid/jsgrid.load-indicator.js"></script>
+    <script src="assets/js/lib/jsgrid/jsgrid.load-strategies.js"></script>
+    <script src="assets/js/lib/jsgrid/jsgrid.sort-strategies.js"></script>
+    <script src="assets/js/lib/jsgrid/jsgrid.field.js"></script>
+    <script src="assets/js/lib/jsgrid/fields/jsgrid.field.text.js"></script>
+    <script src="assets/js/lib/jsgrid/fields/jsgrid.field.number.js"></script>
+    <script src="assets/js/lib/jsgrid/fields/jsgrid.field.select.js"></script>
+    <script src="assets/js/lib/jsgrid/fields/jsgrid.field.checkbox.js"></script>
+    <script src="assets/js/lib/jsgrid/fields/jsgrid.field.control.js"></script>
+    <script src="assets/js/lib/jsgrid/jsgrid-init.js"></script>
+    <!-- JS Grid Scripts End-->
+
     <script src="assets/js/lib/bootstrap.min.js"></script><script src="assets/js/scripts.js"></script>
     <!-- scripit init-->
+
 </body>
 
 </html>
