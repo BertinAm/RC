@@ -37,12 +37,12 @@
         <div class="sidebar sidebar-hide-to-small sidebar-shrink sidebar-gestures">
             <div class="nano">
                 <div class="nano-content">
-                    <div class="logo"><a href="rc_home.html"><!-- <img src="assets/images/logo.png" alt="" /> --><span>Focus</span></a></div>
+                    <div class="logo"><a href="rc_home.php"><!-- <img src="assets/images/logo.png" alt="" /> --><span>Focus</span></a></div>
                     <ul>
                         <li class="label">Main</li>
                         <li><a class="sidebar-sub-toggle"><i class="ti-home"></i> Dashboard <span class="badge badge-primary"></span> <span class="sidebar-collapse-icon ti-angle-down"></span></a>
                             <ul>
-                                <li><a href="rc_home.html">Dashboard 1</a></li>      
+                                <li><a href="rc_home.php">Dashboard 1</a></li>      
                                 
                             </ul>
                         </li>
