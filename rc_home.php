@@ -51,6 +51,7 @@
                         <li><a href="app-event-calender.html"><i class="ti-calendar"></i> Calender </a></li>
                         <li><a href="app-email.html"><i class="ti-email"></i> Email</a></li>
                         <li><a href="app-profile.html"><i class="ti-user"></i> Profile</a></li>
+                        <li><a href="class.php"><i class="ti-user"> Class</i></a></li>
                         <li class="label">Features</li>
                         <li class="label">Extra</li>
                         <li><a class="sidebar-sub-toggle"><i class="ti-files"></i> Invoice <span class="sidebar-collapse-icon ti-angle-down"></span></a>
